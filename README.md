@@ -1,5 +1,5 @@
 
-# Project Title
+# Validate Regex React Hook Form
 
 A regex validation for [React Hook Form](https://www.npmjs.com/package/react-hook-form)
 
