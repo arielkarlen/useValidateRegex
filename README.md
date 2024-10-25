@@ -77,9 +77,14 @@ Add or remove the necessary ones
 ]
 ```
 
-Configure the hook and pass it the functions clearErrors, setErrors, and the Regex object
+Configure the hook and pass it the functions clearErrors, setErrors, the field to validate and the Regex object
 ```bash
-  const { validateRegex } = useValidateRegex(clearErrors, setError, regex)
+  const { validateRegex } = useValidateRegex(clearErrors, setError, 'password', regex)
+```
+
+If you need to validate another regex, do an alias destruct to create another instance of the hook
+```bash
+   const { validateRegex: validateMailregex } = useValidateRegex(clearErrors, setError, 'email', mailRegex)
 ```
 
 Add the Password field to the form, and call the function to validate onChange.
