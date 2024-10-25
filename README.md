@@ -1,7 +1,7 @@
 
 # Project Title
 
-A brief description of what this project does and who it's for [React Hook Form](https://www.npmjs.com/package/react-hook-form)
+A regex validation for [React Hook Form](https://www.npmjs.com/package/react-hook-form)
 
 
 ## Installation
