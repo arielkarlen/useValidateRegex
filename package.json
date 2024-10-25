@@ -1,0 +1,14 @@
+{
+  "name": "use-react-validateregex-hook-form",
+  "version": "1.0.0",
+  "description": "Validate Regex for react-hook-form",
+  "main": "src/useValidateregex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "author": "Ariel Karlen",
+  "license": "ISC"
+}
