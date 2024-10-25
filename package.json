@@ -1,6 +1,6 @@
 {
   "name": "use-react-validateregex-hook-form",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "main": "src/useValidateRegex.jsx",
   "module": "src/useValidateRegex.jsx",
   "exports": {
@@ -9,6 +9,15 @@
   "dependencies": {
     "react": "^17.0.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arielkarlen/useValidateRegex"
+  },
+  "keywords": [
+    "validate",
+    "regex",
+    "forms"
+  ],
   "author": "Ariel Karlen",
   "license": "ISC"
 }
